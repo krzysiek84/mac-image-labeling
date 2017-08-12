@@ -344,10 +344,10 @@ if __name__ == '__main__':
 		x = int(midX - perfect_width/2.0)
 		y = int(midY - perfect_height/2.0)
 
-		# Dissortion - take 9 images from given one, offset each a bit
+		# Dissortion - take more images from given one, offset each a bit
 		result = []
-		for dx in [-10, 0, 10]:
-			for dy in [-5, 0, 5]:
+		for dx in [0]: #[-10, 0, 10]:  
+			for dy in [0]: #[-5, 0, 5]:
 				result.append( {"x" : (x + dx), "y" : (y + dy), "width" : perfect_width, "height" : perfect_height} )
 
 		return result
@@ -362,10 +362,10 @@ if __name__ == '__main__':
 
 
 
-	# Pick how many bg images should be created
-	background_images = 10
-
 	# Export background images
+	# Pick how many bg images should be created
+	background_images = 0
+
 	export_background_images(images_dir, 
 							scale_by,
 							background_images, 

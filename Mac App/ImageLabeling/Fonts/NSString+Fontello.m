@@ -3,6 +3,11 @@
 //
 //  NSString+Fontello.m
 //
+//
+//  Distributed under the MIT License.
+//  See the LICENSE file for more information.
+//
+
 
 #import "NSString+Fontello.h"
 

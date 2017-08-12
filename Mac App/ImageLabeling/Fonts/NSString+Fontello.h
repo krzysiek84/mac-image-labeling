@@ -4,7 +4,10 @@
 //  NSString+Fontello.h
 //
 //  Font generated from http://fontello.com/ fonts generator.
-
+//
+//  Distributed under the MIT License.
+//  See the LICENSE file for more information.
+//
 
 
 #import <AppKit/AppKit.h>
