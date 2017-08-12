@@ -36,8 +36,8 @@ format is as follows:
       }
     ]
   }, ....
-}```
-
+}
+```
 
 
 To run provided `generate_data.py` script it's needed to install PIL (best to use (virtual environments)[http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref].
