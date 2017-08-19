@@ -10,7 +10,7 @@ This repository contains the code for the Mac Application for labeling images. R
 
 ## Installation
 
-XCode is required. Open Project in XCode and run it. Application should be very easy to use, there is [tutorial](/Mac App/ImageLabeling/welcome_text.md) too.
+XCode is required. Open Project in XCode and run it. Application should be very easy to use, there is [tutorial](/Mac\ App/ImageLabeling/welcome_text.md) too.
 
 
 
