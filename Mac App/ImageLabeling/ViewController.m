@@ -221,7 +221,7 @@
     
     self.view.window.title = [NSString stringWithFormat:@"%@ (%@ x %@),  %@ from %@",
                               imageName, @(image.size.width), @(image.size.height),
-                              @(self.currentIndex), @(self.images.count)];
+                              @(self.currentIndex + 1), @(self.images.count)];
 
     
     [[self view] setNeedsLayout:YES];

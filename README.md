@@ -1,14 +1,17 @@
 
 
-# App for fast image labeling for Mac
+# Mac Application for fast image labeling.
 
 
 This repository contains the code for the Mac Application for labeling images. Result of labeling is stored in simple json format. Which can be further processed, there is generate_data.py script provided.
 
 
+![Screen From App](screenshot.png)
+
 ## Installation
 
-XCode is required. Open Project in XCode and run it. 
+XCode is required. Open Project in XCode and run it. Application should be very easy to use, there is [tutorial](Mac App/ImageLabeling/welcome_text.md) too.
+
 
 
 
@@ -40,8 +43,8 @@ format is as follows:
 ```
 
 
-To run provided `generate_data.py` script it's needed to install PIL (best to use [virtual environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref).
-
+To run provided `generate_data.py` script requires installed PIL. Its best to have virtual environments installed first [virtual environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref). 
+	
     pip install PIL
 
 
@@ -50,7 +53,7 @@ To run script you can use:
     python generate_data.py ~/path/to/images --width 100 --height 100
 
 
-Best will be to manually modify the script and decide how many background images to generate, which regions of images discard etc.
+Script code should be easy to modify and decide how many background images to generate, which regions of images discard etc.
 
 
 
